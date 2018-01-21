@@ -4225,3 +4225,14 @@ div.video-js div.vjs-loading-spinner {
   padding-left: .1em;
   text-align: center!important;
 }
+
+.vjs-paused
+{
+	position: absolute!important;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background:url(https://lienminh.garena.vn/man-hinh-lien-minh-2017/img/content/displays/champion-leona-splash.jpg) bottom right no-repeat;
+}
