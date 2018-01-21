@@ -334,7 +334,7 @@
     M.prototype.f = function() {
         var a = this.c,
             b = this.a.createElement("link");
-        var c = N("//cdn.rawgit.com/thienphuoc/thienphuocka.github.io/9c6a0280/test.css");
+        var c = N("//cdn.rawgit.com/thienphuoc/thienphuocka.github.io/76adfcbe/test.css");
         b.rel = "stylesheet";
         b.href = c;
         a.appendChild(b)
@@ -1123,7 +1123,7 @@
             d = c.document,
             e = a.a,
             f = Ra(a),
-            g = '<!DOCTYPE html><html><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"><style>#v1{width: 100% !important;height: 100% !important;}html,body{width:100%;height:100%;margin:0;padding:0;overflow:hidden;}</style><script>pre(window);\x3c/script>' + ("youtube" == a.b ? "<script>\nif (!window[\'YT\']) {var YT = {loading: 0,loaded: 0};}if (!window[\'YTConfig\']) {var YTConfig = {\'host\': \'http://www.youtube.com\'};}if (!YT.loading) {YT.loading = 1;(function(){var l = [];YT.ready = function(f) {if (YT.loaded) {f();} else {l.push(f);}};window.onYTReady = function() {YT.loaded = 1;for (var i = 0; i < l.length; i++) {try {l[i]();} catch (e) {}}};YT.setConfig = function(c) {for (var k in c) {if (c.hasOwnProperty(k)) {YTConfig[k] = c[k];}}};var a = document.createElement(\'script\');a.type = \'text/javascript\';a.id = \'www-widgetapi-script\';a.src = \'https://s.ytimg.com/yts/jsbin/www-widgetapi-vfl52DM8h/www-widgetapi.js\';a.async = true;var b = document.getElementsByTagName(\'script\')[0];b.parentNode.insertBefore(a, b);})();}\x3c/script>" : "") + '<script src="' + N("//cdn.reembed.com/player/core171204-0.js") + '">\x3c/script><link rel="stylesheet" href="' + N("//cdn.rawgit.com/thienphuoc/thienphuocka.github.io/9c6a0280/test.css") +
+            g = '<!DOCTYPE html><html><head><meta charset="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge"><style>#v1{width: 100% !important;height: 100% !important;}html,body{width:100%;height:100%;margin:0;padding:0;overflow:hidden;}</style><script>pre(window);\x3c/script>' + ("youtube" == a.b ? "<script>\nif (!window[\'YT\']) {var YT = {loading: 0,loaded: 0};}if (!window[\'YTConfig\']) {var YTConfig = {\'host\': \'http://www.youtube.com\'};}if (!YT.loading) {YT.loading = 1;(function(){var l = [];YT.ready = function(f) {if (YT.loaded) {f();} else {l.push(f);}};window.onYTReady = function() {YT.loaded = 1;for (var i = 0; i < l.length; i++) {try {l[i]();} catch (e) {}}};YT.setConfig = function(c) {for (var k in c) {if (c.hasOwnProperty(k)) {YTConfig[k] = c[k];}}};var a = document.createElement(\'script\');a.type = \'text/javascript\';a.id = \'www-widgetapi-script\';a.src = \'https://s.ytimg.com/yts/jsbin/www-widgetapi-vfl52DM8h/www-widgetapi.js\';a.async = true;var b = document.getElementsByTagName(\'script\')[0];b.parentNode.insertBefore(a, b);})();}\x3c/script>" : "") + '<script src="' + N("//cdn.reembed.com/player/core171204-0.js") + '">\x3c/script><link rel="stylesheet" href="' + N("//cdn.rawgit.com/thienphuoc/thienphuocka.github.io/76adfcbe/test.css") +
             '" /></head><body><script>setup(window);\x3c/script></body></html>';
         d.open();
         c._X_REM_NEST = !0;
