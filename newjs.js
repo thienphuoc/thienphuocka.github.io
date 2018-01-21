@@ -1212,7 +1212,7 @@
         if (b.vjs) {
             var f = {
                 id: "v1",
-                controls: "",
+                controls: 1,
                 preload: "none",
                 "class": a.className,
                 width: a.width,
