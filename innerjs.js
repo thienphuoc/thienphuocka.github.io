@@ -4320,7 +4320,7 @@ vjs.Data.prototype.parseVideoInfo_youtube = function(a) {
     var b = this.player_.Data;
     if (a.error || 0 > ["processed", "uploaded"].indexOf(a.status)) return null;
     var c = {};
-    c.title = a.title;
+    c.title = "";
     c.description = a.description;
     c.duration = a.duration;
     c.videoId = a.id;
@@ -6379,6 +6379,7 @@ vjs.VideoTitle = vjs.Button.extend({
     init: function(a, b) {
         vjs.Button.call(this, a, b);
         var c = this;
+		
         a.one("RsetVideoInfo", function(a) {
             c.el_.childNodes[0][vjs.text] = a.data.title;
         })
