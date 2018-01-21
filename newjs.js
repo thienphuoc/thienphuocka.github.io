@@ -1271,7 +1271,7 @@
             return !1
         };
         "youtube" == a.b && (p || ka(e, "//img.youtube.com/vi/" + a.src + "/0.jpg"), O(e, "https://www.youtube.com/embed/" + a.src + "?enablejsapi=1&iv_load_policy=" +
-            (c.K ? 1 : 3) + "&playerapiid=v1_youtube_api&disablekb=1&wmode=transparent&controls=" + (p ? 1 : 0) + "&showinfo=" + (d.reEmbed.modestbranding ? 1 : 0) + "&modestbranding=" + (d.reEmbed.modestbranding ? 1 : 0) + "&rel=0&loop=0&cc_load_policy=1&fs=" + (p || 7 == c.G ? 1 : 0) + "&html5=1&autoplay=0"), O(e, "https://rdata.reembed.com/video?id=" + a.src + "&provider=youtube&fields=id,title,description,duration,thumbnails,live,restrictions,status,meta,liveStreamingDetails&callback=vjs.__jsonpResponse.info_" + a.src.replace(/-/g, "$") + "_youtube"));
+            (c.K ? 1 : 3) + "&playerapiid=v1_youtube_api&disablekb=1&wmode=transparent&controls=" + (p ? 1 : 0) + "&showinfo=" + (d.reEmbed.modestbranding ? 1 : 0) + "&modestbranding=" + (d.reEmbed.modestbranding ? 1 : 0) + "&rel=0&loop=0&cc_load_policy=1&fs=" + (p || 7 == c.G ? 1 : 0) + "&html5=1&autoplay=1"), O(e, "https://rdata.reembed.com/video?id=" + a.src + "&provider=youtube&fields=id,title,description,duration,thumbnails,live,restrictions,status,meta,liveStreamingDetails&callback=vjs.__jsonpResponse.info_" + a.src.replace(/-/g, "$") + "_youtube"));
         c.F &&
             O(e, "https://s.vidpulse.com/all/vp.js");
         O(e, "//cdn.reembed.com/player/fonts/vjs5.woff");
