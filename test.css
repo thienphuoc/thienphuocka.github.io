@@ -1777,6 +1777,7 @@ div.video-js div.vjs-loading-spinner {
 
 .video-js.vjs-endscreen-show .vjs-end-screen .vjs-watermark {
   display: block!important;
+  opacity:0;
 }
 
 .video-js div.vjs-end-screen div.vjs-end-screen-gallery-close {
@@ -4243,6 +4244,11 @@ div.video-js div.vjs-loading-spinner {
 }
 
 .ytp-hide-controls .ytp-watermark
+{
+	opacity:0;
+}
+
+a.ytp-watermark.yt-uix-sessionlink
 {
 	opacity:0;
 }
