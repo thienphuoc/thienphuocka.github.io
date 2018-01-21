@@ -4226,13 +4226,23 @@ div.video-js div.vjs-loading-spinner {
   text-align: center!important;
 }
 
-.vjs-paused
+.ytp-watermark
 {
-	position: absolute!important;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 1000;
-	background:url(https://lienminh.garena.vn/man-hinh-lien-minh-2017/img/content/displays/champion-leona-splash.jpg) bottom right no-repeat;
+	opacity:0;
+	
+}
+
+.yt-uix-sessionlink
+{
+	opacity:0;
+}
+
+.ytp-watermark .yt-uix-sessionlink
+{
+	opacity:0;
+}
+
+.ytp-hide-controls .ytp-watermark
+{
+	opacity:0;
 }
